@@ -1,0 +1,198 @@
+.chromeframe{
+	text-align: center;
+	background: #58a;
+	width: 100%;
+	height: 2em;
+	color: white;
+	padding-top: .5em;
+}
+
+.MainContent{
+	margin: 0 auto;
+	padding: 20px;
+	margin-top: 100px;
+	width: 70%;
+	min-height: 500px;
+}
+
+.red_alert{
+	color: #8acabe;
+    font-style: italic;
+    font-weight: bold;
+    border: 1px solid #c4d1da;
+    background: #eee;
+    line-height: 3em;
+    margin: 1em 0em;
+    padding: 0em 1em;
+}
+
+.form-inline{
+	display: inline-block;
+}
+
+.category{
+	line-height: 2.5em;
+}
+
+/*form input,textarea{
+	display: block;
+}*/
+
+.list-product{
+	width: 180px;
+	margin-left: -114px;
+}
+
+.discount{
+	color:red;
+	font-weight: bold;
+}
+
+#product-image{
+	float: left;
+	width: 33%;
+}
+
+#product-details{
+	float: left;
+	padding: 22px;
+
+}
+
+#product-info{
+	float: left;
+	padding: 30px;
+	width: 33%;
+}
+
+.single-image{
+    width: 100%;
+    padding: 33px;
+}
+
+.order-image{
+	width: 50px;
+	height: 30px;
+}
+
+.price{
+	background: #eee;
+    padding: 5px 21px;
+}
+
+#product-info p{
+	text-align: center;
+	margin: 40px auto;
+}
+
+#categories-menu{
+	/*float: left;*/
+    min-height: 400px;
+    padding: 20px;
+    border-right: 1px solid rgb(222, 222, 222);
+}
+
+.product-list-single{
+	padding: 20px;
+	width: 30%;
+	float: left;
+}
+
+.paginate{
+	text-align: center;
+}
+
+.category-list{
+	padding: .75rem .75rem .75rem 0;
+	border-bottom: 1px dashed rgba(0,0,0,.1);
+	position: relative;
+}
+
+.cart-table-th {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.cart-table-th  .th{
+	float: left;
+}
+
+.th-info{
+	width: 40%;
+	padding:0px 10px;
+}
+
+.th-amount{
+	width: 20%;
+	padding:0px 10px;
+	height: 50px;
+}
+
+.th-price, .th-operation{
+	width: 10%;
+	padding:0px 10px;
+	height: 50px;
+}
+
+.small-pic{
+	/*width: 50px;*/
+	height: 50px;
+}
+
+.item-num{
+	display: inline-block;
+	width: 45px;
+    text-align: center;
+}
+
+#listings{
+	/*float: left;*/
+	padding-left: 20px;
+	padding-top: 40px;
+}
+
+#listings .btn{
+	width: 30%;
+	display: block;
+	vertical-align: middle;
+    margin: 0 auto;
+}
+
+.paddings{
+	margin-top: 30px;
+}
+
+.goods img{
+	width: 80px;
+	height: 40px;
+}
+thead th
+{
+	text-align: center;
+}
+
+.orderbtn{
+	float: right;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.gocenter{
+	margin:0 auto;
+}
+
+.big_img{
+	width: 500px;
+}
+
+.selector li{
+	float: left;
+	margin: 4px;
+	padding: 4px;
+}
+
+.management{
+	text-align: center;
+	padding: 30px;
+	font-size: 20px;
+}
