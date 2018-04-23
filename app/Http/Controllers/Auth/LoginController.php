@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
-
+use Illuminate\Http\Request;
 class LoginController extends Controller
 {
     /*
@@ -35,5 +35,25 @@ class LoginController extends Controller
     public function __construct()
     {
         $this->middleware('guest')->except('logout');
+    }
+
+    public function username()   //使用名称作为登录名
+    {
+        return 'name';
+    }
+
+    public function adminLogin()
+    {
+        return view('admin.login');
+    }
+
+     public function adminLogin_post(Request $request)
+    {
+        $credentials = $request->only('name', 'password');
+        if(\Auth::attempt($credentials) && \Auth::user()->id == 1)
+            {
+                return redirect('/home');
+            }
+        return redirect(route('admin.login'));
     }
 }

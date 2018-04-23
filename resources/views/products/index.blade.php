@@ -9,7 +9,7 @@
 		@foreach($products as $product)
 			<li>
 				{{Html::image($product->image, $product->title, ['width' => '50']) }}
-				<span class="category">{{$product->title}}</span> - 
+				<span class="category">【{{$product->category->id*1000 + $product->id}}】 - {{$product->title}}</span> - 
 				
 				{{ Form::open(['url' => 'admin/products/toggle-availability', 'class' => 'form-inline'])}}
 				{{ Form::hidden('id', $product->id)}}

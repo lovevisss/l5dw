@@ -12,6 +12,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    {{Html::style('css/main.css')}}
 </head>
 <body>
     <div id="app">
@@ -70,8 +71,11 @@
                 </div>
             </div>
         </nav>
-
-        @yield('content')
+        {{-- <div class="col-md-4"></div> --}}
+        <div class="container">
+            
+            @yield('content')
+        </div>
     </div>
 
     <!-- Scripts -->

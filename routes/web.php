@@ -81,4 +81,6 @@ Route::get('promote', ['as' => 'promote', 'uses' => 'HomeController@promote']);
 Route::get('admin/users', ['as' => 'admin-user', 'uses' => 'HomeController@getUser']);
 Route::get('admin/orders', ['as' => 'admin-order', 'uses' => 'HomeController@adminOrder']);
 
+Route::get('admin/login', ['as' => 'admin.login', 'uses' => 'Auth\LoginController@adminLogin']);
 
+Route::post('admin/login', ['as' => 'admin.login.post', 'uses' => 'Auth\LoginController@adminLogin_post']);

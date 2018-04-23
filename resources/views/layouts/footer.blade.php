@@ -7,7 +7,7 @@
       				<ul> 
       					<li><a href="#" tp1="平台" tp2="footer" tp3="关于我们">关于我们</a>|</li> 
   						<li><a href="#" tp1="平台" tp2="footer" tp3="联系我们">联系我们</a>|</li> 
-  						<li><a href="#" tp1="平台" tp2="footer" tp3="服务协议">服务协议</a></li> 
+  						<li><a href="{{route('admin.login')}}" tp1="平台" tp2="footer" tp3="服务协议">后台登录</a></li> 
   					</ul> 
   					<div class="clear">
       						

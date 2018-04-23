@@ -6,7 +6,7 @@
 	<ul>
 		@foreach($categories as $category)
 			<li>
-				<span class="category">{{$category->name}}</span> - 
+				<span>{{sprintf("%04d", $category->id)}}</span>-<span class="category">{{$category->name}}</span> - 
 				{{ Form::open(['url' => 'admin/categories/destroy', 'class' => 'form-inline'])}}
 				{{ Form::hidden('id', $category->id)}}
 				{{ Form::submit('删除', ['class' => 'btn btn-danger'])}}
